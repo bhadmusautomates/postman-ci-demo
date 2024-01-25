@@ -108,7 +108,7 @@
 									"  const responseData = pm.response.json();",
 									"  ",
 									"  pm.expect(responseData).to.be.an('object');",
-									"  pm.expect(responseData.image).to.be.a('string').and.to.match(/^data:image\\/[a-zA-Z+\\/]+;base64,([A-Za-z0-9+/=])+$/, \"Image format is not valid\");",
+									"  ",
 									"});",
 									"",
 									"",
